@@ -24,13 +24,13 @@ CREATE TABLE books (
 -- Create the authors table
 CREATE TABLE authors (
     author_id SERIAL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL
+    name VARCHAR(255) NOT NULL UNIQUE
 );
 
 
 
 -- Create the book_authors table to handle many-to-many relationship between books and authors
-CREATE TABLE book_authors (
+CREATE TABLE books_authors (
     book_id INT NOT NULL,
     author_id INT NOT NULL,
     PRIMARY KEY (book_id, author_id),
