@@ -1,2 +1,3 @@
 /home/alcaz/projects/book-search/src/test/java/com/a2/AppTest.java
 /home/alcaz/projects/book-search/src/test/java/com/a2/repository/BookRepositoryTest.java
+/home/alcaz/projects/book-search/src/test/java/com/a2/service/BookServiceTest.java

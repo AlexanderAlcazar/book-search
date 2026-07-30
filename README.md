@@ -40,13 +40,30 @@ book-search/
 │   └── create_schema.sql
 ├── docker-compose.yml
 ├── pom.xml
+├── README.md
 └── src/
-    ├── main/java/com/a2/
-    │   ├── App.java
-    │   ├── DbImporter.java
-    │   └── HelloController.java
-    └── test/java/com/a2/
-        └── AppTest.java
+    ├── main/
+    │   ├── java/com/a2/
+    │   │   ├── App.java
+    │   │   ├── DbImporter.java
+    │   │   ├── HelloController.java
+    │   │   ├── entity/
+    │   │   │   └── Book.java
+    │   │   ├── repository/
+    │   │   │   └── BookRepository.java
+    │   │   └── service/
+    │   │       └── BookService.java
+    │   └── resources/
+    │       └── application.properties
+    └── test/
+        ├── java/com/a2/
+        │   ├── AppTest.java
+        │   ├── repository/
+        │   │   └── BookRepositoryTest.java
+        │   └── service/
+        │       └── BookServiceTest.java
+        └── resources/
+            └── application.properties
 ```
 
 ## Current Features

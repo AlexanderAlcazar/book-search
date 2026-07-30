@@ -3,3 +3,4 @@
 /home/alcaz/projects/book-search/src/main/java/com/a2/HelloController.java
 /home/alcaz/projects/book-search/src/main/java/com/a2/entity/Book.java
 /home/alcaz/projects/book-search/src/main/java/com/a2/repository/BookRepository.java
+/home/alcaz/projects/book-search/src/main/java/com/a2/service/BookService.java

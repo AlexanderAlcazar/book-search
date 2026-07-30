@@ -1,5 +1,6 @@
 com/a2/App.class
 com/a2/repository/BookRepository.class
 com/a2/DbImporter.class
+com/a2/service/BookService.class
 com/a2/HelloController.class
 com/a2/entity/Book.class
