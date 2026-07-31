@@ -4,9 +4,8 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-/**
- * Unit test for simple App.
- */
+// This is a very basic smoke test.
+// It confirms that the test framework is working and the app test class can run.
 public class AppTest 
     extends TestCase
 {

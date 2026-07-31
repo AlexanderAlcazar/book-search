@@ -11,6 +11,8 @@ import org.springframework.http.ResponseEntity;
 
 import com.a2.entity.Book;
 
+// This test checks that the controller can handle a real HTTP request.
+// It verifies that the /books/search endpoint responds and returns book data.
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class BookControllerTest {
     

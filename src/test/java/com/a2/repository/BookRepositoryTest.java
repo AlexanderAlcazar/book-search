@@ -11,6 +11,8 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
 import com.a2.entity.Book;
 
+// This test checks that the repository can query data from the database.
+// It verifies that the data-access layer is working correctly.
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 public class BookRepositoryTest {

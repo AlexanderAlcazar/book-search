@@ -10,9 +10,12 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+// This class represents a Book object.
+// It defines what a book looks like in the application and in the database.
 @Entity
 @Table(name = "books")
 public class Book {
+    // This field is the primary key for the book record.
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long bookId;

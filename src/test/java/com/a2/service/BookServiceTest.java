@@ -11,6 +11,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import com.a2.entity.Book;
 
+// This test checks the service layer's behavior.
+// It verifies that invalid input is rejected and valid input produces results.
 @SpringBootTest
 public class BookServiceTest {
     @Autowired
