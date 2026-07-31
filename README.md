@@ -47,6 +47,8 @@ book-search/
     │   │   ├── App.java
     │   │   ├── DbImporter.java
     │   │   ├── HelloController.java
+    │   │   ├── controller/
+    │   │   │   └── BookController.java
     │   │   ├── entity/
     │   │   │   └── Book.java
     │   │   ├── repository/
@@ -58,6 +60,8 @@ book-search/
     └── test/
         ├── java/com/a2/
         │   ├── AppTest.java
+        │   ├── controller/
+        │   │   └── BookControllerTest.java
         │   ├── repository/
         │   │   └── BookRepositoryTest.java
         │   └── service/
@@ -68,9 +72,11 @@ book-search/
 
 ## Current Features
 
-- Spring Boot application bootstrap in `App.java`
-- Example REST endpoint at `GET /hello`
-- PostgreSQL schema for `books`, `authors`, and `book_authors`
+- Spring Boot application bootstrap in App.java
+- Book search endpoint at GET /books/search
+- Service-layer validation for empty or null search terms
+- Repository layer for database-backed book search
+- PostgreSQL schema for book data and search support
 - Docker Compose setup for running PostgreSQL 16 locally
 
 ## Database Design
